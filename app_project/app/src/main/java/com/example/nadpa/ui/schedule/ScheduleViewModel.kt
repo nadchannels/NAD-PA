@@ -29,7 +29,7 @@ class ScheduleViewModel : ViewModel() {
     private fun loadWeekTasks() {
         viewModelScope.launch {
             try {
-                _tasks.value = ApiClient.api.getTasks(relativeWeekIndex = _weekIndex.value)
+                _tasks.value = ApiClient.api.getTasks(_weekIndex.value)
             } catch (e: Exception) {
                 _tasks.value = emptyList()
             }

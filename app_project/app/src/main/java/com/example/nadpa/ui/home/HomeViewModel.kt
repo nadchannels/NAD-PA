@@ -35,7 +35,7 @@ class HomeViewModel : ViewModel() {
             }
 
             try {
-                val tasks = ApiClient.api.getTasks(relativeWeekIndex = 0)
+                val tasks = ApiClient.api.getTasks(0)
                 val now = LocalTime.now()
                 val fmt = DateTimeFormatter.ofPattern("HH:mm")
 

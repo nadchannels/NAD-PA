@@ -25,7 +25,7 @@ interface NadPaApiService {
 
     // Tasks
     @GET("tasks/")
-    suspend fun getTasks(@Query("relativeWeekIndex") weekIndex: Int? = null): List<Task>
+    suspend fun getTasks(@Query("relativeWeekIndex") relativeWeekIndex: Int? = null): List<Task>
 
     @POST("tasks/")
     suspend fun createTask(@Body task: TaskCreate): Task
