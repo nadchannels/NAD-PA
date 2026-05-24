@@ -1,0 +1,27 @@
+# NAD PA — Root .gitignore
+
+# ─── Backend ──────────────────────────────────────────────────────────────────
+backend/.env
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/firebase-credentials.json
+backend/.pytest_cache/
+backend/venv/
+backend/.venv/
+
+# ─── Android ──────────────────────────────────────────────────────────────────
+app_project/.gradle/
+app_project/local.properties
+app_project/app/build/
+app_project/build/
+app_project/**/*.apk
+app_project/**/*.aab
+*.keystore
+*.jks
+
+# ─── IDE ─────────────────────────────────────────────────────────────────────
+.idea/
+*.iml
+.DS_Store
+Thumbs.db

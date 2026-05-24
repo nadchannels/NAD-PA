@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "196250275044",
+    "project_id": "nad-pa",
+    "storage_bucket": "nad-pa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196250275044:android:7cf299e7e75d399609f0f1",
+        "android_client_info": {
+          "package_name": "NAD.PA"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlMq5lf-zlDHDnevdF20O9-wEbkjN_d3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
